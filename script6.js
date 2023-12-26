@@ -6,7 +6,7 @@ function checkAnswer(nextPage) {
     var normalizedAnswer = userAnswer.replace(/^(un |une |le |la |les |)\b/, '').toLowerCase();
 
     // Vérifiez la réponse en fonction de la logique souhaitée
-    if (normalizedAnswer === "piano") {
+    if (normalizedAnswer === "dictionnaire") {
         alert("Félicitations ! Vous avez trouvé la bonne réponse !");
         window.location.href = nextPage;
     } else {
