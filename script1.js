@@ -12,7 +12,7 @@ function checkAnswer(nextPage) {
     } else {
         // Afficher le message d'erreur en rouge
         messageElement.style.color = "red";
-        messageElement.textContent = "Mauvaise réponse. Essayez à nouveau !";
+        messageElement.textContent = "Mauvaise réponse. Essayez à nouveau .!";
 
         // Vous pouvez également ajouter une logique pour effacer le message après un certain temps si vous le souhaitez
         setTimeout(function () {
